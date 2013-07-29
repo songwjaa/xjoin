@@ -1,0 +1,111 @@
+R531_HTTPI_ALWAYSUSEIP_CMD {Check if the DUT also spoofs with its ip-address}
+R531_HTTPI_AUTOMATIC_01 {Check if nat entries are created/removed when enable/disable dsd}
+R531_HTTPI_AUTOMATIC_02 {Check that the dns server is automatically configured to spoof an ip address if intercept is turned on via the GUI}
+R531_HTTPI_AUTOMATIC_03 {check the intercept enable/disable and urlfilter enable/disable characteristics}
+R531_HTTPI_CONFIG_FLUSH_LOAD {Check if everything is in the default configuration after a config flush/Loads}
+R531_HTTPI_CONNECTERROR_URL {check that you can redirect to the not standard connecterrorurl}
+R531_HTTPI_DATA_BUFFERING_TEST {is the ST correctly buffering connections?}
+R531_HTTPI_DEFAULTS_07 {check if WANDownSpoofScen work by def}
+R531_HTTPI_DIFFERENT_CONFIGURATIONS  {check dsd in combination with different configuration: DHCP spoofing numbered and IP Passthrough}
+R531_HTTPI_DNSDOWNUSEIP_CMD {Check if the dut reacts correct when it has no hostname}
+R531_HTTPI_DNS_RESOLVING_ERR_CODES {Check that the spoof table get the right error codes}
+R531_HTTPI_DNS_TIMEOUT {Check the dns timeout has the same value as the dns forwarder.}
+R531_HTTPI_DNS_UPDATE {Check that the cmd update is working}
+R531_HTTPI_ENDURANCE {check that the modem does not reboot when surfing every 10 seconds to a site.}
+R531_HTTPI_EXCHANGE_TEST {test operability with the exchange mail program}
+R531_HTTPI_FILE_REDIR_CMD {check that blocked files other that html and images are returning a http 403 Forbidden message}
+R531_HTTPI_FIREWALL {Check the event firewall occurs if the firewall is set to blockall}
+R531_HTTPI_GUI_01 {Check the gui-pages of urlfiltering-section.}
+R531_HTTPI_GUI_02 {Check the gui-pages for interception related items.}
+R531_HTTPI_HALFOPEN_CONN {check the behavior when sending a early fin}
+R531_HTTPI_HELP_CMDs {check the help}
+R531_HTTPI_HTTP10_HTTP11 {Check if all everything is working with HTTP1.0}
+R531_HTTPI_IM_REDIR_CMD_01 {enable/disable the image redirect option and check if you can change the imageredirecturl}
+R531_HTTPI_IM_REDIR_CMD_02 {check if image-objects on WAN side are redirected}
+R531_HTTPI_INTERCEPT_STATS_CMD {Check that the command stats is working}
+R531_HTTPI_INTERFACE_TESTING_1 {verifying the behaviour on the different hardware interfaces}
+R531_HTTPI_INTEROPERABILITY_MLP {check that dsd is still working when mlp is enabled}
+R531_HTTPI_INTEROPERABILITY_WEBFILTERING {check that urlfiltering has priority on webfiltering}
+R531_HTTPI_LAN-LAN_PERFORMANCE_TEST2 {PERFORMANCE TESTS FROM lan-lan, but take interfaces out of the bridge}
+R531_HTTPI_LAN-LAN_PERFORMANCE_TEST {Performance  tests LAN-LAN.}
+R531_HTTPI_LOG_CMDS {Check the functionality of the commands [dsd syslog]}
+R531_HTTPI_LOG_CMDS_2 {Check the functionality of the commands [dsd syslog]}
+R531_HTTPI_MAIL_TEST {test operability with the exchange mail program}
+R531_HTTPI_MONITORINTERCEPT_URL {check that you can redirect to the not standard monitorintercepturl}
+R531_HTTPI_MULTIPLE_SPOOFED_IP {check that the ST is taking a different ip address per FQDN}
+R531_HTTPI_NOT_SPOOFING_PRT_RECORDS {Check the dns server is not spoofing PRT records}
+R531_HTTPI_NOT_STANDARD_PORT_TEST {check the beheavior of the DUT is correct if you surf on a not standard port}
+R531_HTTPI_OF_RULES {Check you can insert at least 128 database rules}
+R531_HTTPI_OPERABILITY_NON_HTTP_PROGRAMS {Check if the ST is interopable with  non http programs working on port 80,8080 or 1080}
+R531_HTTPI_OPERABILITY_PROGRAMS {Check if the ST is interopable with  a range of programs}
+R531_HTTPI_OPERABILITY_PROGRAMS_01 {Check if the ST is interopable with  a range of programs}
+R531_HTTPI_OPERABILITY_SERVERS {Check if the ST is interopable with Apache/IIS}
+R531_HTTPI_Operability_XBOX {Check if the ST is interopable with  the XBOX}
+R531_HTTPI_OUT_OF_THE_BOX {check that the basic scenario is working}
+R531_HTTPI_PERFORMANCE_TEST {Performance tests LAN-WAN}
+R531_HTTPI_PERFORMANCE_TEST2 {Extended Performance tests LAN-WAN}
+R531_HTTPI_PORT_REBINDING_TEST {check that redirecting still works if the httpd works on a different port}
+R531_HTTPI_REDIRECT_ACTION_TESTING {Check if the actions taken when asking for different mimetypes are correct}
+R531_HTTPI_RESOLVING_IF_WAN_UP {Check the dns server is trying to resolve all domain from the cache once the wan is up}
+R531_HTTPI_RESOLVING_MULTI_PC {Check that the scenario works if you work with more than one PC}
+R531_HTTPI_RESOLVING_VIA_PROXY {Check that the scenario works if you work via proxy}
+R531_HTTPI_ROBUSTNESS_02 {send bad tcp packet to and through the dut}
+R531_HTTPI_ROBUSTNESS_BOUNDARY_TEST {check how many connections you can reach, and see if the dut is robust}
+R531_HTTPI_ROUSTNESS_01 {STRESS THE DUT MANY USERS}
+R531_HTTPI_SEQ_PARSING_RULES {Check if the urls are correctly parsed and if the sequence is correct}
+R531_HTTPI_SERVERTIMEOUT_CMD {Check if the command [dsd intercept config servertimeout] has any effect}
+R531_HTTPI_SPOOFEDIP_CMD {Check if the DUT listens to an ip-address other than the default one}
+R531_HTTPI_SPOOF_AFTER_REBOOT {Check that the dns caching is not corrupt after a reboot}
+R531_HTTPI_STRESS_WITH_HTTP-LOAD {check how the dut reacts when stressing it over a night with the HTTP_Load program}
+R531_HTTPI_SURF_TEST {check that basic surfing is working, and that the look and feel of known websites is normal}
+R531_HTTPI_UNAUTHORISEDREQ_URL {check the def page, and that you can redirect to the not standard monitorintercepturl}
+R531_HTTPI_URLFILTER-BLOCKIP_CMD {Check if the setting "blockip" in the menu [dsd urlfilter] has effect}
+R531_HTTPI_URLFILTER-BLOCKOBSCURE_CMD {Check if the setting "blockobsureurls" in the menu [dsd urlfilter] has effect}
+R531_HTTPI_URLFILTER-BLOCKPROXY_CMD_02 {the dut will not detect redirect storms and will not crash}
+R531_HTTPI_URLFILTER_01 {Basic tests on the urlfilter}
+R531_HTTPI_URLFILTER_02 {check that it is not possible to block the modem itself}
+R531_HTTPI_URLFILTER_03 {Mixture of accept/block/redirect urlfilter rules}
+R531_HTTPI_URLFILTER_04 {Blocking/accepting/redirecting mixture of diff sites, &diff responses from the server}
+R531_HTTPI_URLFILTER_BLOCKDEF_CMD {Check that the option [dsd urlfilter defaultaction] is working.}
+R531_HTTPI_URLFILTER_BLOCKPROXY_CMD {Check if the setting "blockproxy" in the menu [dsd urlfilter] has effect}
+R531_HTTPI_URLFILTER_CMD {Check if you can change all the settings in the [dsd urlfilter config].}
+R531_HTTPI_URLFILTER_PROXY {check if the urlfilter has effect when surfing with proxy working on port 80 or 8080}
+R531_HTTPI_URLFILTER_REDIR_CMD {check if the redirect command is working}
+R531_HTTPI_URLFILTER_RULE_CMD {Check if all the commands in the menu [dsd urlfilter rule] are working}
+R531_HTTPI_URLFILTER_STATE_CMD {Check if the setting "state" in the menu [dsd urlfilter] has effect}
+R531_HTTPI_VIDEO_STREAM_TEST {test video streams}
+R531_HTTPI_WDSPOOFSCEN_01 {check if the webpages of the WanDownSpoofedscenario are ok}
+R531_HTTPI_WDSPOOFSCEN_02 {check the webpages in case of adsl down}
+R531_HTTPI_WDSPOOFSCEN_03 {check the webpages in case of authentication error}
+R531_HTTPI_WDSPOOFSCEN_04 {check the webpages in case of atm down.}
+R531_HTTPI_WDSPOOFSCEN_05 {check the authentication webpages}
+R531_HTTPI_WDSPOOFSCEN_06 {check the redirect page in case of no dns configured}
+R531_HTTPI_WDSPOOFSCEN_07 {check that the close/reopen request is clear for the user.}
+R531_HTTPI_WDSPOOFSCEN_08 {check that the wdspoofscen are ok when surfing with proxy.}
+R531_HTTPI_WDSPOOFSCEN_09 {check that the IS_NOT_DSL_DEVICE variable is working.}
+R531_HTTPI_webDAV_TEST {Testing behaviour with webdav}
+R531_INTERFACE_TESTING_2 {verifying the behaviour on the different software interfaces}
+TELSTRA_HTTPI_DEFAULTS_01 {Check if the default state is correct}
+TELSTRA_HTTPI_DEFAULTS_02 {Check the dsd debug config default values are correct}
+TELSTRA_HTTPI_DEFAULTS_03 {Check the dsd intercept config default values are correct}
+TELSTRA_HTTPI_DEFAULTS_04 {Check the dsd syslog config default values are correct}
+TELSTRA_HTTPI_DEFAULTS_05 {Check the dsd urlfilter config default values are correct}
+TELSTRA_HTTPI_DEFAULTS_06 {Check the dsd urlfilter rule default values are correct}
+TELSTRA_HTTPI_KEYWORDS_RULE_1 {check the urlfilter for  keywords cmd}
+TELSTRA_HTTPI_KEYWORDS_RULE_10 {check the max keywords characters}
+TELSTRA_HTTPI_KEYWORDS_RULE_2 {check the keywords parse for one device}
+TELSTRA_HTTPI_KEYWORDS_RULE_3 {check the keywords parse for mutiple device}
+TELSTRA_HTTPI_KEYWORDS_RULE_4 {basic keywords rule test for one device}
+TELSTRA_HTTPI_KEYWORDS_RULE_5 {basic keywords rule test for mutiple device}
+TELSTRA_HTTPI_KEYWORDS_RULE_6 {mixture of keywords rule(block/accept/redirect) for one device}
+TELSTRA_HTTPI_KEYWORDS_RULE_7 {mixture of keywords rule(block/accept/redirect) for mutiple device}
+TELSTRA_HTTPI_KEYWORDS_RULE_8 {mixture of keywords rule and url rule for one device}
+TELSTRA_HTTPI_KEYWORDS_RULE_9 {check max keywords rule}
+TELSTRA_HTTPI_URLFILTER_EXCLUSION_IP {Check if urlfilter rule based on exclusion of IP work normally}
+TELSTRA_HTTPI_URLFILTER_EXCLUSION_MAC_01 {Check if urlfilter rule based on exclusion of MAC work normally}
+TELSTRA_HTTPI_URLFILTER_EXCLUSION_MAC_02 {Check if different urlfilter rules based on different  MAC work normally}
+TELSTRA_HTTPI_URLFILTER_INTERNALID {Check the rule internal ID is persistent}
+TELSTRA_HTTPI_URLFILTER_IP {Check if urlfilter rule based on IP work normally}
+TELSTRA_HTTPI_URLFILTER_MAC_01 {Check if urlfilter rule based on MAC work normally}
+TELSTRA_HTTPI_URLFILTER_MAC_02 {Check if different urlfilter rules based on different  MAC work normally}
+TELSTRA_HTTPI_URLFILTER_MAC_IP {Check if AND-operation apply when within a filter rule both MAC and IP are created}
